@@ -4,85 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- google Title -->
-    <div class="google-title">
-      <div class="google-logo">
-        <p>G</p>
-        <!--First child-->
-        <p>o</p>
-        <!--secnd child-->
-        <p>o</p>
-        <p>g</p>
-        <p>l</p>
-        <p>e</p>
+    <!-- google header -->
+    <div class="header">
+      <div class="h-side1">
+        <a href="#">Sobre Google</a>
+        <a href="#">Tienda</a>
+      </div>
+      <div class="h-side2">
+        <a href="#">Gmail</a>
+        <a href="#">Imágenes</a>
+        <img
+          src="https://www.svgrepo.com/show/315749/menu-grid-o.svg"
+          alt="menu Google  "
+          width="25"
+          height="25"
+        />
+        <input type="button" value="Iniciar sesión" />
       </div>
     </div>
+    <!-- google container -->
+    <div class="google-container">
+      <!-- google Title -->
+      <div class="google-title">
+        <div class="google-logo">
+          <p>G</p>
+          <!--First child-->
+          <p>o</p>
+          <!--secnd child-->
+          <p>o</p>
+          <p>g</p>
+          <p>l</p>
+          <p>e</p>
+        </div>
+      </div>
 
-    <!-- google search -->
-    <div class="google-search">
-      <!-- Search ICON -->
-      <div class="search-icon">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
-          alt="search icon"
-          width="25px"
-          height="25px"
-        />
+      <!-- google search -->
+      <div class="search-container">
+        <div class="google-search">
+          <!-- Search ICON -->
+          <div class="search-icon">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
+              alt="search icon"
+              width="15px"
+              height="15px"
+            />
+          </div>
+          <!-- Search input -->
+          <div class="search-inp">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Buscar en Google o escribir una URL"
+            /><br />
+          </div>
+          <!-- Camera and Microphone ICON -->
+          <div class="cam-mic-search">
+            <div class="mic">
+              <img
+                src="https://cdn-icons-png.flaticon.com/256/3128/3128290.png"
+                alt="micro-google"
+                width="25"
+                height="25"
+              />
+            </div>
+            <div class="cam">
+              <img
+                src="https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/langes-640px-Google_Lens_Icon.svg.png&w=640&q=50"
+                alt="camera google"
+                width="25"
+                height="25"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Search input -->
-      <div class="search-inp">
-        <input type="text" name="search" id="search" /><br />
-      </div>
-      <!-- Camera and Microphone ICON -->
-      <div class="cam-mic-search">
-        <img
-          src="https://cdn-icons-png.flaticon.com/256/3128/3128290.png"
-          alt="micro-google"
-          width="30"
-          height="30"
-        />
-        <img
-          src="https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/langes-640px-Google_Lens_Icon.svg.png&w=640&q=50"
-          alt="camera google"
-          width="30"
-          height="30"
-        />
-      </div>
-    </div>
-    <div class="btns-search">
-      <input type="submit" value="Buscar con google" />
-      <input type="submit" value="Voy a tener suerte" />
-    </div>
 
-    <!-- Other language -->
-    <div class="other-language">
-      Ofrecido por Google en:
-      <a href="#">català</a>
-      <a href="#">galego</a>
-      <a href="#">euskara</a>
+      <div class="btns-search">
+        <input type="submit" value="Buscar con google" />
+        <input type="submit" value="Voy a tener suerte" />
+      </div>
+
+      <!-- Other language -->
+      <div class="other-language">
+        Ofrecido por Google en:
+        <a href="#">català</a>
+        <a href="#">galego</a>
+        <a href="#">euskara</a>
+      </div>
     </div>
 
     <!-- Footer -->
 
     <footer>
-      <div class="row1">
-        <a href="#">Publicidad</a>
-        <a href="#">Empresa</a>
-        <a href="#">Cómo funciona la Búsqueda</a>
-      </div>
-      <div class="row2">
-        <a href="#"
-          >Tres décadas de acción climática: descubre lo que estamos haciendo
-          Privacidad Términos
-        </a>
-      </div>
-      <div class="row3">
-        <a href="#">Privacidad</a>
-        <a href="#"> Términos</a>
-        <a href="#">Configuración</a>
+      <div class="layer1">España</div>
+      <!-- <hr /> -->
+      <div class="layer2">
+        <div class="row1">
+          <a href="#">Publicidad</a>
+          <a href="#">Empresa</a>
+          <a href="#">Cómo funciona la Búsqueda</a>
+        </div>
+        <div class="row2">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+            alt="icon"
+            width="14"
+          />
+          <a href="#"
+            >Tres décadas de acción climática: descubre lo que estamos haciendo
+            Privacidad Términos
+          </a>
+        </div>
+        <div class="row3">
+          <a href="#">Privacidad</a>
+          <a href="#"> Términos</a>
+          <a href="#">Configuración</a>
+        </div>
       </div>
     </footer>
   </body>
